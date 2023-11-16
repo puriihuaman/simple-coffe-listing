@@ -63,7 +63,7 @@ main {
 // + Banner
 .banner {
 	position: absolute;
-	max-height: 35vh;
+	max-height: 40vh;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -74,13 +74,12 @@ main {
 		display: block;
 		width: 100%;
 		height: auto;
-		aspect-ratio: 16/9;
 		object-fit: cover;
 		object-position: bottom;
 	}
 
 	@media screen and (min-width: 1024px) {
-		max-height: 45vh;
+		max-height: 35vh;
 	}
 }
 
@@ -88,7 +87,7 @@ main {
 .container {
 	background-color: var(--dark-second);
 	width: 70%;
-	margin-top: 25vh;
+	margin-top: 10vh;
 	margin-left: auto;
 	margin-right: auto;
 	padding: var(--space-xl);
@@ -96,6 +95,7 @@ main {
 
 	@media screen and (min-width: 1024px) {
 		padding: calc(var(--space-xl) * 2);
+		margin-top: 15vh;
 	}
 }
 
@@ -126,7 +126,6 @@ main {
 
 // + Navegation
 .navegation {
-	border-color: #fff000;
 	margin: var(--space-xl) 0;
 
 	.tabs {
@@ -183,7 +182,7 @@ main {
 		display: block;
 		width: 100%;
 		object-fit: cover;
-		aspect-ratio: 4 / 3;
+		aspect-ratio: 16/9;
 	}
 
 	.popular {
