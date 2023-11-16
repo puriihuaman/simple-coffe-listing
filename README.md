@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Simple Coffe Listing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ¡Welcome to the **_Simple Coffe Listing_** project!
 
-Currently, two official plugins are available:
+This project was developed as part of the challenge proposed by [DevChallenges](https://devchallenges.io/challenges), with the aim of creating a web application using modern technologies such as React and SCSS. The resulting application is an interactive lading page that displays a list of cafes, providing users with a friendly and engaging experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Main Features
 
-## Expanding the ESLint configuration
+**React**: The app uses the React JavaScript library to build a dynamic and efficient user interface.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**SCSS**: The visual style of the project has been developed using SCSS, providing a modular and maintainable structure for the style sheet.
 
-- Configure the top-level `parserOptions` property like this:
+**Cafe List**: The app presents a list of coffees with details such as name, description and price.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+**Interactivity**: Users can interact with the list and enjoy a smooth user experience.
+
+## Instructions for use
+
+_Clone this repository to your local machine._
+
+```
+git clone https://github.com/puriihuaman/simple-coffe-listing.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+_Install the necessary dependencies._
+
+```
+npm install
+```
+
+_Start the application_
+
+```
+npm start
+```
+
+Open your browser and visit http://localhost:5173/ to see the app in action.
